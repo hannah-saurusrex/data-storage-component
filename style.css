@@ -16,6 +16,35 @@
 
 body {
 	font-family: "Raleway", sans-serif;
+	margin: 0;
+	text-align: center;
+	background-color: var(--verydarkblue);
+	color: white;
+	height: 100vh;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 100px 0;
+}
+
+.brand {
+	background-color: var(--darkblue);
+	margin: 20px;
+	padding: 40px 70px 20px 20px;
+}
+
+.icons {
+	margin-top: 20px;
+}
+
+.icon {
+	background-color: var(--verydarkblue);
+	border-radius: 10px;
+	margin: 5px;
+	padding: 10px;
 }
 
 /* footer attribution styles */
